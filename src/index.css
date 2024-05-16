@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .bg-gradient-radial {
+    background-image: radial-gradient(44.94% 406.34% at 70.91% 60.42%, #EF0FCB 0%, #0D155C 100%);
+  }
+}
+
+#bir{
+  background-image: url('../public/imgs/navbar2.png');
+}
+#join{
+  background-image: url('../public/imgs/join1.png');
+}
